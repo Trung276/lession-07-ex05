@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caculator</title>
+</head>
+<h1>Caculator</h1>
+<body>
+<table>
+  <tr>
+    <td colspan="2", style="text-align: center">1st number:</td>
+    <td colspan="2">
+      <input type="number" id="num1">
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2" style="text-align: center">2nd number:</td>
+    <td colspan="2">
+      <input type="number" id="num2">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <button onclick="add()">Addition(+)</button>
+    </td>
+    <td>
+      <button onclick="sub()">Subtraction(-)</button>
+    </td>
+    <td>
+      <button onclick="multip()">Multiplication(X)</button>
+    </td>
+    <td>
+      <button onclick="div()">Division(/)</button>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align: center">Result:</td>
+    <td colspan="2" style="text-align: center">
+      <p id="Result"></p>
+    </td>
+  </tr>
+</table>
+<script src="caculator.js"></script>
+</body>
+</html>
